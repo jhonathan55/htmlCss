@@ -1,23 +1,22 @@
-
 /*
 reset basico y configuracion general
 */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*
 Encabezado de sitio
 */
-.site-header .topbar{
-    background-color: #333;
-    color: white;
-    padding: 14px 0;
-    text-align: center;
+.site-header .topbar {
+  background-color: #333;
+  color: white;
+  padding: 14px 0;
+  text-align: center;
 }
-.site-header .subnav{
+.site-header .subnav {
   background: #e1e1e1;
   display: flex;
   justify-content: center;
@@ -25,13 +24,24 @@ Encabezado de sitio
   border-bottom: 1px solid #ccc;
 }
 
-.site-header .subnav a{
+.site-header .subnav a {
   color: #333;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
   transition: text-decoration 0.3s ease;
 }
-.site-header .subnav a:hover{
+.site-header .subnav a:hover {
   text-decoration: underline;
+}
+.title {
+  color: blue;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img-goku {
+  width: 300px;
+  height: auto;
 }
