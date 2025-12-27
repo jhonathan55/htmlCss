@@ -12,10 +12,18 @@ Encabezado de sitio
 */
 .site-header .topbar {
   background-color: #333;
+  font-family: Arial, sans-serif;
   color: white;
   padding: 14px 0;
   text-align: center;
+  
 }
+
+.site-header .topbar h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
 .site-header .subnav {
   background: #e1e1e1;
   display: flex;
@@ -27,7 +35,7 @@ Encabezado de sitio
 .site-header .subnav a {
   color: #333;
   text-decoration: none;
-  margin: 0 15px;
+  margin: 0 1rem;
   font-weight: bold;
   transition: text-decoration 0.3s ease;
 }
